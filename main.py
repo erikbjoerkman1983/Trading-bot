@@ -3,8 +3,8 @@ import requests
 
 TICKERS = ["AAPL","MSFT","NVDA","TSLA","AMZN"]
 
-TOKEN = "8274803396:aafa-exhmbewsvkal0x4x2tn1syul2uxkaa"
-CHAT_ID = "8797190988"
+TOKEN = 8274803396:aafa-exhmbewsvkal0x4x2tn1syul2uxkaa
+CHAT_ID = 8797190988
 
 def send_alert(msg):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
